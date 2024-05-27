@@ -34,7 +34,7 @@ class _SplashScreenState extends State<SplashScreen> {
           padding: EdgeInsets.all(screenWidth * 0.05),
           child: Image.asset(
             "assets/images/logo.png",
-            height: screenHeight * 0.3, // Adjust the logo size as needed
+            height: screenHeight * 0.4, // Adjust the logo size as needed
           ),
         ),
       ),
