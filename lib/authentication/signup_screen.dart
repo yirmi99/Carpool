@@ -39,8 +39,8 @@ class _SignUpScreenState extends State<SignUpScreen> {
                       style: TextStyle(
                         fontSize: 26,
                         fontWeight: FontWeight.bold,
-                        fontFamily: 'Comme', // Set font family
-                        color: Color(0xFF6EE2F5), // Set color
+                        //color: Color(0xFF6EE2F5), // Set color
+                         color: Colors.white
                       ),
                     ),
                     SizedBox(height: screenHeight * 0.03),
@@ -60,14 +60,13 @@ class _SignUpScreenState extends State<SignUpScreen> {
                                 labelText: "User Name",
                                 labelStyle: TextStyle(
                                   fontSize: 14,
-                                  fontFamily: 'Comme', // Set font family
-                                  color: Color(0xFF6EE2F5), // Set color
+                                  //color: Color(0xFF6EE2F5), // Set color
+                                    color: Colors.white
                                 ),
                               ),
                               style: const TextStyle(
-                                color: Colors.grey,
+                                color: Colors.white,
                                 fontSize: 15,
-                                fontFamily: 'Comme', // Set font family
                               ),
                             ),
                             SizedBox(height: screenHeight * 0.02),
@@ -78,14 +77,13 @@ class _SignUpScreenState extends State<SignUpScreen> {
                                 labelText: "User Phone",
                                 labelStyle: TextStyle(
                                   fontSize: 14,
-                                  fontFamily: 'Comme', // Set font family
-                                  color: Color(0xFF6EE2F5), // Set color
+                                  //color: Color(0xFF6EE2F5), // Set color
+                                    color: Colors.white
                                 ),
                               ),
                               style: const TextStyle(
-                                color: Colors.grey,
+                                color: Colors.white,
                                 fontSize: 15,
-                                fontFamily: 'Comme', // Set font family
                               ),
                             ),
                             SizedBox(height: screenHeight * 0.02),
@@ -95,15 +93,14 @@ class _SignUpScreenState extends State<SignUpScreen> {
                               decoration: const InputDecoration(
                                 labelText: "User Email",
                                 labelStyle: TextStyle(
-                                  fontSize: 14,
-                                  fontFamily: 'Comme', // Set font family
-                                  color: Color(0xFF6EE2F5), // Set color
+                                    fontSize: 14,
+                                    color: Colors.white
                                 ),
                               ),
                               style: const TextStyle(
                                 color: Colors.grey,
                                 fontSize: 15,
-                                fontFamily: 'Comme', // Set font family
+                                //fontFamily: 'Comme', // Set font family
                               ),
                             ),
                             SizedBox(height: screenHeight * 0.02),
@@ -115,14 +112,15 @@ class _SignUpScreenState extends State<SignUpScreen> {
                                 labelText: "User Password",
                                 labelStyle: TextStyle(
                                   fontSize: 14,
-                                  fontFamily: 'Comme', // Set font family
-                                  color: Color(0xFF6EE2F5), // Set color
+                           //       fontFamily: 'Comme', // Set font family
+                               // color: Color(0xFF6EE2F5), // Set color
+                                  color: Colors.white
                                 ),
                               ),
                               style: const TextStyle(
                                 color: Colors.grey,
                                 fontSize: 15,
-                                fontFamily: 'Comme', // Set font family
+                             //   fontFamily: 'Comme', // Set font family
                               ),
                             ),
                             SizedBox(height: screenHeight * 0.04),
@@ -135,15 +133,15 @@ class _SignUpScreenState extends State<SignUpScreen> {
                                 );
                               },
                               style: ElevatedButton.styleFrom(
-                                  backgroundColor: Colors.purple,
+                                  backgroundColor: const Color(0xFFFF7E82),
                                   padding: EdgeInsets.symmetric(
                                       horizontal: screenWidth * 0.2,
                                       vertical: screenHeight * 0.02)),
                               child: const Text(
                                 "Sign Up",
                                 style: TextStyle(
-                                  fontSize: 18,
-                                  fontFamily: 'Comme', // Set font family
+                                    fontSize: 18,
+                                    color: Colors.white
                                 ),
                               ),
                             ),
@@ -163,9 +161,9 @@ class _SignUpScreenState extends State<SignUpScreen> {
                       child: const Text(
                         "Already have an Account? Login Here",
                         style: TextStyle(
-                          color: Colors.grey,
+                          color: Colors.white,
                           fontSize: 16,
-                          fontFamily: 'Comme', // Set font family
+                       //   fontFamily: 'Comme', // Set font family
                      //     color: Color(0xFF6EE2F5), // Set color
                         ),
                       ),

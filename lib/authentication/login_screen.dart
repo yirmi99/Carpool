@@ -37,8 +37,7 @@ class _LoginScreenState extends State<LoginScreen> {
                       style: TextStyle(
                         fontSize: 26,
                         fontWeight: FontWeight.bold,
-                        fontFamily: 'Comme', // Set font family
-                        color: Color(0xFF6EE2F5), // Set color
+                        color: Colors.white, // Set color
                       ),
                     ),
                     SizedBox(height: screenHeight * 0.03),
@@ -58,14 +57,13 @@ class _LoginScreenState extends State<LoginScreen> {
                                 labelText: "User Email",
                                 labelStyle: TextStyle(
                                   fontSize: 14,
-                                  fontFamily: 'Comme', // Set font family
-                                  color: Color(0xFF6EE2F5), // Set color
+                                  //color: Color(0xFF6EE2F5), // Set color
+                                  color: Colors.white
                                 ),
                               ),
                               style: const TextStyle(
                                 color: Colors.grey,
                                 fontSize: 15,
-                                fontFamily: 'Comme', // Set font family
                               ),
                             ),
                             SizedBox(height: screenHeight * 0.02),
@@ -77,14 +75,14 @@ class _LoginScreenState extends State<LoginScreen> {
                                 labelText: "User Password",
                                 labelStyle: TextStyle(
                                   fontSize: 14,
-                                  fontFamily: 'Comme', // Set font family
-                                  color: Color(0xFF6EE2F5), // Set color
+                                  //color: Color(0xFF6EE2F5), // Set color
+                                    color: Colors.white
                                 ),
                               ),
                               style: const TextStyle(
-                                color: Colors.grey,
+                                color: Colors.white,
                                 fontSize: 15,
-                                fontFamily: 'Comme', // Set font family
+                            //    fontFamily: 'Comme', // Set font family
                               ),
                             ),
                             SizedBox(height: screenHeight * 0.04),
@@ -97,7 +95,7 @@ class _LoginScreenState extends State<LoginScreen> {
                                 );
                               },
                               style: ElevatedButton.styleFrom(
-                                  backgroundColor: Colors.purple,
+                                  backgroundColor: const Color(0xFFFF7E82),
                                   padding: EdgeInsets.symmetric(
                                       horizontal: screenWidth * 0.2,
                                       vertical: screenHeight * 0.02)),
@@ -105,7 +103,8 @@ class _LoginScreenState extends State<LoginScreen> {
                                 "Login",
                                 style: TextStyle(
                                   fontSize: 18,
-                                  fontFamily: 'Comme', // Set font family
+                                 // fontFamily: 'Comme', // Set font family
+                                  color: Colors.white
                                 ),
                               ),
                             ),
@@ -125,9 +124,9 @@ class _LoginScreenState extends State<LoginScreen> {
                       child: const Text(
                         "Don\'t have an Account? Register Here",
                         style: TextStyle(
-                          color: Colors.grey,
+                          color: Colors.white,
                           fontSize: 16,
-                          fontFamily: 'Comme', // Set font family
+                          //fontFamily: 'Comme', // Set font family
                         //  color: Color(0xFF6EE2F5), // Set color
                         ),
                       ),

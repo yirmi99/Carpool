@@ -89,15 +89,15 @@ class HomeScreen extends StatelessWidget {
           child: Row(
             mainAxisAlignment: MainAxisAlignment.start,
             children: [
-              Icon(icon, size: 40, color: Colors.purple),
+              Icon(icon, size: 40, color: const Color(0xFFFF7E82)),
               SizedBox(width: screenWidth * 0.05),
               Expanded(
                 child: Text(
                   title,
-                  style: TextStyle(
+                  style: const TextStyle(
                     fontSize: 20,
                     fontFamily: 'Comme',
-                    color: Color(0xFF6EE2F5),
+                    color: Colors.white,
                     fontWeight: FontWeight.bold,
                   ),
                 ),
